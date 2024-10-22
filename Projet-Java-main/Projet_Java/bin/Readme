@@ -1,0 +1,16 @@
+Fait Par:
+
+Dorra Kemicha et Ouidir Nassim
+
+
+Objectif: 
+
+L'application permet aux utilisateurs de dessiner, sélectionner et manipuler des rectangles sur une interface graphique.
+en plus de la possibilité d'intersecter des rectangles et de les déplacer simultanément. 
+Elle offre des fonctionnalités uniques telles que la modification de couleur et la manipulation de la taille des rectangles (Longueur et Largeur de façon independante).
+
+
+Exemple de Bug possible mais pris en compte: 
+
+Dans la méthode mouseDragged, une logique est implémentée pour vérifier si le mode "United Dragging" est activé. Si tel est le cas, tous les rectangles sont
+déplacés ensemble. Sinon, seul le rectangle sélectionné est déplacé, cette approche prévient les chevauchements indésirables de rectangles.
